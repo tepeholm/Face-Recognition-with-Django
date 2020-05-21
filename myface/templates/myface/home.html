@@ -1,0 +1,25 @@
+<html>
+  <head>
+    <title>Video Live Stream</title>
+    <style>
+
+      body {
+        background: black;
+      }
+      .top-container {
+        width: 500px;
+        margin: 30px auto;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="top-container">
+    <h1>Face Recognition</h1>
+    
+    <video id="video">{% url 'video_feed' %}</video>
+  </div>
+
+
+  </body>
+</html>
